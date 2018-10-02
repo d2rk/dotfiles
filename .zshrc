@@ -105,10 +105,3 @@ unsetopt share_history
 stty start undef
 stty stop undef
 setopt noflowcontrol
-
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /home/d2rk/workspace/robionica/epifox-ui/node_modules/tabtab/.completions/serverless.zsh ]] && . /home/d2rk/workspace/robionica/epifox-ui/node_modules/tabtab/.completions/serverless.zsh
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /home/d2rk/workspace/robionica/epifox-ui/node_modules/tabtab/.completions/sls.zsh ]] && . /home/d2rk/workspace/robionica/epifox-ui/node_modules/tabtab/.completions/sls.zsh
